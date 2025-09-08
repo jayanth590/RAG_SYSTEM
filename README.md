@@ -210,7 +210,7 @@ curl -s -X POST "http://localhost:8000/query" \
 3. **Hybrid Retrieval**:
    - Combines BM25 (lexical) and vector (semantic) search
    - Reciprocal Rank Fusion (RRF) for result combination
-   - Similarity threshold: 0.7
+   - Similarity threshold: 0.87
 
 4. **Azure OpenAI Integration**:
    - GPT-4o model for response generation
