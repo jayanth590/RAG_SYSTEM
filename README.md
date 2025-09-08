@@ -205,7 +205,6 @@ curl -s -X POST "http://localhost:8000/query" \
 
 2. **Elasticsearch Cluster**:
    - Stores documents with instructor-large embeddings (768 dimensions)
-   - Index: `rag_documents2`
 
 3. **Hybrid Retrieval**:
    - Combines BM25 (lexical) and vector (semantic) search
@@ -219,8 +218,8 @@ curl -s -X POST "http://localhost:8000/query" \
 
 5. **HTTP API**:
    - FastAPI framework
-   - Single and batch query processing
-   - Health monitoring and error handling
+   - Single query processing
+     
 
 ## System Configuration Details
 
