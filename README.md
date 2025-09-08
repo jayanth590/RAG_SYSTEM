@@ -160,7 +160,7 @@ curl -s -X POST "http://localhost:8000/query" \
 
 ```json
 {
-  "query": "your question here",
+  "query": "How does the salesforce data cloud works?",
   "top_k": 5,
 }
 ```
@@ -170,13 +170,15 @@ curl -s -X POST "http://localhost:8000/query" \
 
 ```json
 {
-  "query": "How does Salesforce Data Cloud work?",
-  "answer": "Generated response based on retrieved context...",
-  "urls" : ["list of urls"],
+  "query": "How does the Salesforce Data Cloud work?",
+  "answer": "Salesforce Data Cloud works as a unified platform to connect, ingest, harmonize, unify, and analyze data from various sources—whether structured or unstructured, batch or streaming. Here's a step-by-step explanation based on the provided context:\n\n1. **Connecting Data Sources**: It integrates data from multiple sources, enabling organizations to consolidate their structured or unstructured data.\n\n2. **Ingesting Data**: Allows ingestion of both batch and streaming data from these sources.\n\n3. **Zero Copy Data Federation**: Connects data using zero copy data federation, which facilitates seamless data access without requiring physical duplication.\n\n4. **Data Preparation**: Offers tools for transforming data and ensuring governance, allowing users to clean and organize their data effectively.\n\n5. **Data Harmonization**: Harmonizes the data to conform to a standard data model, ensuring consistency across all data inputs.\n\n6. **Identity Resolution**: Unifies data using identity resolution rulesets, enabling the creation of a single, comprehensive view of customers or accounts.\n\n7. **Analytics and Insights**: Enables querying and analyzing data to generate insights. Supported analytics tools, such as Tableau, can be used to enhance data analysis.\n\n8. **AI Integration**: Uses AI to predict behavior, which helps businesses understand customer actions and trends.\n\n9. **Segmentation and Activation**: Segments data to create personalized experiences across various channels.\n\n10. **Actionable Outputs**: Outputs data to multiple sources, allowing businesses to act on insights and optimize their operations.\n\n11. **Continuous Optimization**: Provides features to review, measure, and improve data usage over time for better outcomes.\n\n12. **Cross-Channel Experiences**: Helps unlock intelligent and meaningful experiences across Salesforce's Customer 360 applications and beyond.\n\nThe platform is scalable and customizable, offering add-on licenses and industry-specific solutions. It can also integrate with other tools like Tableau and Agentforce to enhance decision-making and provide unified profiles for AI-driven solutions.\n\nIf you need more specific details or examples of how Data Cloud is implemented, the context encourages users to explore Salesforce's resources, such as Trailhead modules and implementation guides.",
+  "urls" : ["https://help.salesforce.com/s/articleView?id=data.c360_a_data_cloud.htm&type=5"],
   "retrieval_successful": true,
 }
 ```
 
+
+###Sample query 
 
 
 
