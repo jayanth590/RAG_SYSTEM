@@ -24,7 +24,7 @@ source rag_env/bin/activate  # On Windows: rag_env\Scripts\activate
 
 
 ```bash
-
+git clone https://github.com/jayanth590/RAG_SYSTEM.git
 cd RAG_SYSTEM
 ```
 
